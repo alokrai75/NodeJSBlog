@@ -1,5 +1,7 @@
 //comments.js
 // commands to test
+//get all comment of a post
+//curl -X GET http://localhost:3030/post/0/comments
 // add a comment to an existing posts
 //curl -X POST "http://localhost:3030/post/1/comment" -H "Content-Type: application/json" -i -d '{"text":"Keep going"}'
 // update a comment on existing post
